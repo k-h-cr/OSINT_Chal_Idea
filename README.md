@@ -72,19 +72,19 @@ _**Post 5:**_
 
 Looking at GitHub's documentation, you will realise that it is in fact intended that any commits made on a repository is visible by the entire fork network, regardless of the visibility of the said repo.
 
-<img src="push_visible_fork_network.png" width="600"/>
+<img src="img/push_visible_fork_network.png" width="600"/>
 
 Source: [GitHub Doc: About forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks#forking-a-repository-versus-duplicating-a-repository)
 
 All forks in a fork network should have the same visibility, as visibility is inherited from the parent, and cannot be changed (in the fork). Therefore, even if commits are visible by the whole network, the network is either all public or all private so it doesn't pose as big a security issue. (if someone has unauthorised access to your private fork network, i think you have bigger concerns)
 
-<img src="fork_visibility.png" width="600"/>
+<img src="img/fork_visibility.png" width="600"/>
 
 Source: [GitHub Doc: About permissions and visibility of forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-permissions-and-visibility-of-forks#about-visibility-of-forks)
 
 While on its own this feature is quite harmless, it poses a security issue when organizations open source their projects while maintaining private internal repos. In particular, if the open-sourcing is done after having committed some sensitive information to another private repo in the fork network.
 
-<img src="repo_private_to_public.png" width="600"/>
+<img src="img/repo_private_to_public.png" width="600"/>
 
 Source: [GitHub Doc: What happens to forks when a repository is deleted or changes visibility?](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/what-happens-to-forks-when-a-repository-is-deleted-or-changes-visibility#changing-a-private-repository-to-a-public-repository)
 
@@ -94,7 +94,7 @@ Furthermore, these "exposed" sensitive commits could be perpetually exposed if a
 
 Unfortunately for you, even if you delete the public repo, the oldest active public fork will take over as the new upstream repo, allowing anyone to access your sensitive commits through this new upstream repo. In short, you are fucked.
 
-<img src="delete_public_repo.png" width="600"/>
+<img src="img/delete_public_repo.png" width="600"/>
 
 Source: [GitHub Doc: What happens to forks when a repository is deleted or changes visibility?](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/what-happens-to-forks-when-a-repository-is-deleted-or-changes-visibility#deleting-a-public-repository)
 

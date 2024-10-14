@@ -1,0 +1,45 @@
+1. Create new github user
+2. Create new oranization under user (BestestChallengeHere)
+    - Setting -> Member privileges -> Repository forking -> Allow forking of private repositories.
+    - People -> Organization visibility -> Public
+3. Create new private repo (my_chal_ideas, hereby refered as *main\_*)
+4. Create commit for README.md
+
+```
+Hi!! Welcome to my challenge repo.
+
+I'm an aspiring CTF challenge creator. I will upload my challenges here when I've created some.
+```
+
+5. Create commit for the_plan.md
+
+```
+## The plan: (part 1)
+
+1. Bug a reputable CTF ornanizer
+2. Get recruited to create a challenge
+3. Upload the challenge for the CTF
+4. (once CTF finishes) Move solution and flag from private fork to this repo.
+
+## The plan: (part 2)
+
+5. Rinse and repeat?
+```
+
+6. Create new twitter account
+7. Refer to README.md for posts
+
+(chal start here)
+8. Fork *main\_* (private_my_chal_ideas, hereby refered as *private\_*)
+9. Create commit for "osint chal" flag in *private_*
+10. Create commit to REMOVE flag
+11. Create fluff commits for "osint chal" solution (strictly fluff, no details)
+
+12. Create new branch (hereby refered as *private_branch*)
+13. Create commits for "random flags chal" in *private_branch*
+14. Create PR for "random flags chal" in *main_* for legitimacy
+
+15. Change visibility of *main_* from private to public
+    - Verify that commits can be seen in *main_*
+16. Expose last "random flags chal" commit through twitter
+    - Test if cropped images retain info on twitter
