@@ -3,7 +3,7 @@
 An obscure (but intended) behaviour of github repositories is that making a private repo public exposes all commits made in _ANY_ repository in the fork network. Below I will briefly describe the behaviour and setups.
 
 Credit: [Truffle Security Co.](https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github)'s blog post on accessing deleted and private repository data on GitHub. <br>
-_This readme briefly describes the potential of this feature, and also serves as a quick reference guide. For more info, do check out the above article_
+_This readme only serves as a quick reference guide. For more info, do check out the above article_
 
 - [Challenge Idea](#challenge-idea)
 - [General Setup](#general-setup)
