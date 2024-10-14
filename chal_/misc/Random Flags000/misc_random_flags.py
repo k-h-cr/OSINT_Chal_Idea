@@ -9,3 +9,4 @@ with open("flag.txt","rb") as f:
 
 for _ in range(700):
     print(random.getrandbits(32)+flag[_])
+    input()
