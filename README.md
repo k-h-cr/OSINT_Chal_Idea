@@ -30,13 +30,13 @@ Hey! Just created a new twitter account! About myself: I'm an aspiring CTF chall
 
 _**Post 2:**_
 
-Today I learnt about forking on github. Not sure what thats about, maybe I should try creating {TODO}
+Today I learnt about forking on github. Maybe I should try creating a separate fork for my internal (unpulished) challenges, and leave the original fork to be made public later on. This way, I can segregate my public and private challenges easily.
 
 _**Post 3:**_
 
-:triangular_flag_on_post::triangular_flag_on_post:I'm writing a new challenge. idk what's the normal procedure for storing the flags, so I'm just gonna store it in my repo. Even blocked out the flag and cropped out my username so yall trollers cant find it :):triangular_flag_on_post::triangular_flag_on_post:
+:triangular_flag_on_post::triangular_flag_on_post:I'm writing a new challenge. idk what's the normal procedure for storing the flags, so I'm just gonna store it in the private fork. I even blocked out the flag and cropped out my username so yall trollers cant find it :):triangular_flag_on_post::triangular_flag_on_post:
 
-- And post a picture with the flag blocked and the username, repo name, and commit hash cropped out.
+- And post a picture with the flag blocked out. (no other info)
 
 _**Post 4:**_
 
@@ -46,7 +46,22 @@ I always wanted to get a motorcycle. A red Ducati to be exact, maybe event buy s
 
 _**Post 5:**_
 
-{coming soon}
+I think I came up with an interesting chal, using random numbers to hide a flag. I think it's pretty simple so I will prob publish it soon for yall to try, then maybe release the solution a month later?
+
+_**Post 6:**_
+
+here's a sneak peak of the chal Random Flags000
+
+- post image of the commit with commit hash but no other info
+
+_**Post 7:**_
+
+Not sure when is a good time, so imma just make the my chal repo public first. Of course I'm not dumb enough to commit any of the flags and solutions to this repo until they have been thru a CTF. yall can check out the random number challenge there too.
+
+_**Post 8:**_
+
+did a big oopsie. I forgot i committed the random flag chal to the private repo instead of the public one. I have added the chal to the public repo now. feel free to give me feedback, I know it's not a very difficult challenge, but it's my first <3
+
 
 ## General Setup
 

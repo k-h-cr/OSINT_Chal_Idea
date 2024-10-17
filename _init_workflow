@@ -23,4 +23,4 @@
 15. Change visibility of *main_* from private to public
     - Verify that commits can be seen in *main_*
 16. Expose last "random flags chal" commit through twitter
-    - Test if cropped images retain info on twitter
+    - reveal only commit hash
